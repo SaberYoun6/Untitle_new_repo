@@ -21,31 +21,47 @@ class OneFish{
 	}
 	public String pageNumber(int page){
 		String obj = "";
-		if (page == 0){
+		switch (page){
+			case  0:
 			obj = "One fish, two fish, red fish, blue fish,";
-		}else if (page ==1){
+			break;
+		case 1:
 		       obj = "Black fish, Blue fish, Old fish, New fish.";
-		}else if (page ==2){
+		       break;
+		case 2:
 			obj = "This one has a litle car.";
-		}else if (page == 3){
+			break;
+		case 3:
 		       obj = "This one has a little star.";
-		} else if (page ==4){
+		       break;
+		case 4:
 			obj = "Say! What a lot of fish there are.";
-		}else if {
+			break;
+		case 5:
 			obj = "Yes. Some are red and some are blue.";
-		}else if {
+			break;
+		case 6:
 			obj = "Some are old and some are new.";
-		}
-		else if {
+			break;
+		case 7:
 			obj = "Some are sad, and some are glad.";
-		}else if {
+			break;
+		case 8:
 			obj = "And some are very, very bad.";
-		}else if {
+			break;
+		case 9:
 			obj = "Why are they sad and glad and bad?";
-		}else if { 
+			break;
+		case 10:
 			obj = "I do not know, go ask your dad.";
-		}else {
+			break;
+		case 11: 
+			obj = "Some are thin, and some are fat.";
+			break;
 		
+		default: 
+			obj = "The End";
+			break;
 		}
 
 		return obj;
