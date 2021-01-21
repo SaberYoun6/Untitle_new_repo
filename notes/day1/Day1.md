@@ -111,3 +111,28 @@ Java is passed by value, unlinke some other programming languages.
        - State: (also known as fileds or instance variables)
        - Behavior: (also known as instance methods)
 
+
+
+# Casting 
+  In Javs, at a high level, we essentially have two forms of casting:
+  - Explicit casting
+  - Implicit casting 
+
+Casting can be perfomred on both primitive and reference data types. For primitives, this is known as primitive conversion, and for reference variables, it is know generally as casting.
+
+In both cases, we "turn" one type into another, but the differenence between primitive converson and reference type casting is quite different. The difference mainly stems form the fact that primimtive variable contains a value, which result in actual changes in its' value.
+
+## Primitivie variables Casting 
+Primitve casiting is known as type conversion. This allows us to change the value form one data type to another. Implicit casting occurs if we go from a primitive type that is **smaller** in ragne to one that **larger** in range, in techniacl terms, implict casting occurs when the casting operation is "safe", while explicit casting is necessary if it is unsafe (in cases where you can lost data).
+
+- Widening Conversion 
+  -Occures implicitily
+  -byte ->short -> char -> int -> long -> float -> double 
+  - Notive how long fits inside float, despite long being 64 bit and float beign 32 bit.. becuase of how the ranges are represented 
+- Narrowing conversion
+  - Occurs explictly 
+  - Care should be taken 
+  - double -> float ->long ->int ->char ->short ->byte
+
+## Reference Variable casting 
+Reference variable casting occurs when we convert form reference type to antoher. In the case of reference varialbe casting, implicit casting occures if we form a child class type up to a parent class type, which is "Safe" operation. Explicit casting occurs 

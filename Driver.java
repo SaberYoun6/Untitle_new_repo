@@ -37,7 +37,7 @@ Initialization: where you assign some valule to the varabile for the first time
 		System.out.println(c);
 
 		// Boolean Type 
-		boolean b,d =true,false;
+		boolean b =true;
 		System.out.println(b);
 		b = false;
 		System.out.println(d);
