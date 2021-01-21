@@ -40,6 +40,10 @@ class OneFish{
 			obj = "Some are sad, and some are glad.";
 		}else if {
 			obj = "And some are very, very bad.";
+		}else if {
+			obj = "Why are they sad and glad and bad?";
+		}else if { 
+			obj = "I do not know, go ask your dad.";
 		}else {
 		
 		}
